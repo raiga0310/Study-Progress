@@ -1,15 +1,11 @@
 #include<stdio.h>
 int main(){
-	float a,c;
-	int b,d=0;
-
-	scanf("%d%d%d",&a,&b,&c);
-	for(int i=0;i<c+0.5;i+a){
-		if(i!=0){
-			d+=b;
-		}
-	}
+    int a,b,c,d;
+    d=0;
+    scanf("%d%d%d",&a,&b,&c);
+    d=c/a*b;
 	printf("%d",d);
+
 
 	return 0;
 }
