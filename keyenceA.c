@@ -9,7 +9,7 @@ int main(void){
 	int i,count=0;
 
 	for(i=0;i<n;i++){
-		scanf("%d",*(ary+i));
+		scanf("%d",&ary[i]);
 	}
 
 	qsort(ary,n,sizeof(int),(int(*)(const void *,const void *))compare);
