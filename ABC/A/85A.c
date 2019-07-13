@@ -2,7 +2,7 @@
 int main(void){
 	char str[10];
 	scanf("%s",str);
-	if(str[3]==57)str[3]==58;
+	if(str[3]==55)str[3]++;
 	printf("%s",str );
 	return 0;
 }
