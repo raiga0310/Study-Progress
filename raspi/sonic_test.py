@@ -23,4 +23,4 @@ def tweet(page):
 
 if wipi.digitalRead(5)==0:
 	d=measure()
-	tweet(int((d-0.1)/0.013))
+	tweet(int((d-0.3)/0.013))
