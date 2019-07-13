@@ -13,10 +13,10 @@
 
 実行環境
 * Raspberry Pi 3 Model B+
-* Python 3.7.3  
+* Python 3.7.3 <br>
 使用デバイス等
 * 超音波センサ　hc-sr04
-* RASPI HOME
+* RASPI HOME <br>
 開発環境
 * Python 3.7.3
 * R(予定)
